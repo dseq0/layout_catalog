@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Entire_document_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Entire_document_1024px.png",
         "selector": "document",
         "fileName": "Entire_document_1024px.png",
         "label": "Entire document",
@@ -18,19 +18,18 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -3
+            "height": -46
           },
-          "misMatchPercentage": "18.82",
-          "analysisTime": 37
-        },
-        "diffImage": "..\\bitmaps_test\\20221011-155006\\failed_diff_Entire_document_1024px.png"
+          "misMatchPercentage": "0.38",
+          "analysisTime": 28
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Entire_document_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Entire_document_1200px.png",
         "selector": "document",
         "fileName": "Entire_document_1200px.png",
         "label": "Entire document",
@@ -44,19 +43,18 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -3
+            "height": -46
           },
-          "misMatchPercentage": "16.06",
-          "analysisTime": 38
-        },
-        "diffImage": "..\\bitmaps_test\\20221011-155006\\failed_diff_Entire_document_1200px.png"
+          "misMatchPercentage": "0.32",
+          "analysisTime": 31
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Header_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Header_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Header_tag_1024px.png",
         "selector": "header",
         "fileName": "Header_tag_1024px.png",
         "label": "Header tag",
@@ -80,7 +78,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Header_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Header_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Header_tag_1200px.png",
         "selector": "header",
         "fileName": "Header_tag_1200px.png",
         "label": "Header tag",
@@ -104,7 +102,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Nav_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Nav_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Nav_tag_1024px.png",
         "selector": "nav",
         "fileName": "Nav_tag_1024px.png",
         "label": "Nav tag",
@@ -128,7 +126,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Nav_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Nav_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Nav_tag_1200px.png",
         "selector": "nav",
         "fileName": "Nav_tag_1200px.png",
         "label": "Nav tag",
@@ -152,7 +150,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Link_with_data-qa_hover_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Link_with_data-qa_hover_1024px.png",
         "selector": "[data-qa=\"nav-hover\"]",
         "fileName": "Link_with_data-qa_hover_1024px.png",
         "label": "Link with data-qa_hover",
@@ -176,7 +174,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Link_with_data-qa_hover_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Link_with_data-qa_hover_1200px.png",
         "selector": "[data-qa=\"nav-hover\"]",
         "fileName": "Link_with_data-qa_hover_1200px.png",
         "label": "Link with data-qa_hover",
@@ -200,7 +198,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_class_is-active_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Link_with_class_is-active_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Link_with_class_is-active_1024px.png",
         "selector": "a.is-active",
         "fileName": "Link_with_class_is-active_1024px.png",
         "label": "Link with class_is-active",
@@ -211,22 +209,20 @@ report({
         "expect": 0,
         "viewportLabel": "1024px",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 46
+            "height": 0
           },
-          "misMatchPercentage": "8.60",
-          "analysisTime": 1
-        },
-        "diffImage": "..\\bitmaps_test\\20221011-155006\\failed_diff_Link_with_class_is-active_1024px.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_class_is-active_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Link_with_class_is-active_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Link_with_class_is-active_1200px.png",
         "selector": "a.is-active",
         "fileName": "Link_with_class_is-active_1200px.png",
         "label": "Link with class_is-active",
@@ -237,22 +233,20 @@ report({
         "expect": 0,
         "viewportLabel": "1200px",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 46
+            "height": 0
           },
-          "misMatchPercentage": "8.60",
-          "analysisTime": 1
-        },
-        "diffImage": "..\\bitmaps_test\\20221011-155006\\failed_diff_Link_with_class_is-active_1200px.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Main_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Main_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Main_tag_1024px.png",
         "selector": "main",
         "fileName": "Main_tag_1024px.png",
         "label": "Main tag",
@@ -266,19 +260,18 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -54
+            "height": -46
           },
-          "misMatchPercentage": "36.61",
-          "analysisTime": 39
-        },
-        "diffImage": "..\\bitmaps_test\\20221011-155006\\failed_diff_Main_tag_1024px.png"
+          "misMatchPercentage": "0.40",
+          "analysisTime": 28
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Main_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Main_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Main_tag_1200px.png",
         "selector": "main",
         "fileName": "Main_tag_1200px.png",
         "label": "Main tag",
@@ -292,19 +285,18 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -54
+            "height": -46
           },
-          "misMatchPercentage": "31.24",
-          "analysisTime": 41
-        },
-        "diffImage": "..\\bitmaps_test\\20221011-155006\\failed_diff_Main_tag_1200px.png"
+          "misMatchPercentage": "0.34",
+          "analysisTime": 30
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Card_with_data-qa_card_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Card_with_data-qa_card_1024px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card_1024px.png",
         "label": "Card with data-qa_card",
@@ -321,7 +313,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.63",
-          "analysisTime": 12
+          "analysisTime": 11
         }
       },
       "status": "pass"
@@ -329,7 +321,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Card_with_data-qa_card_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Card_with_data-qa_card_1200px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card_1200px.png",
         "label": "Card with data-qa_card",
@@ -346,7 +338,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.63",
-          "analysisTime": 12
+          "analysisTime": 10
         }
       },
       "status": "pass"
@@ -354,7 +346,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card-hover_1024px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Card_with_data-qa_card-hover_1024px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Card_with_data-qa_card-hover_1024px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card-hover_1024px.png",
         "label": "Card with data-qa_card-hover",
@@ -371,7 +363,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.61",
-          "analysisTime": 15
+          "analysisTime": 12
         }
       },
       "status": "pass"
@@ -379,7 +371,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card-hover_1200px.png",
-        "test": "..\\bitmaps_test\\20221011-155006\\Card_with_data-qa_card-hover_1200px.png",
+        "test": "..\\bitmaps_test\\20221018-154611\\Card_with_data-qa_card-hover_1200px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card-hover_1200px.png",
         "label": "Card with data-qa_card-hover",
@@ -396,7 +388,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.61",
-          "analysisTime": 13
+          "analysisTime": 11
         }
       },
       "status": "pass"
